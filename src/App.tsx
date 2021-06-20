@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import {Router} from '@/Router'
 
-export const App = () => {
-    return(
-        <> cfsfd</>
-    )
+export function App() {
+
+  return (<Router />)
 }
+
+export default App;
