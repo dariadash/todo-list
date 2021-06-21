@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
-import { TodoPage } from './feature/todo-list/view'
+import { TodoPage } from './features/todo-list/view'
 import { Navbar } from './ui'
 
 const routes = [
