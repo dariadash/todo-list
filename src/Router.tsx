@@ -19,7 +19,7 @@ export const Router = () => (
     <BrowserRouter>
         <Navbar />
         <Switch>
-            {routes.map(({path,component}) => <Route component={component} path={path} />)}
+            {routes.map(({path,component}) => <Route key={path} component={component} path={path} />)}
         </Switch>
     </BrowserRouter>
 )

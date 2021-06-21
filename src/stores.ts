@@ -1,0 +1,1 @@
+export {todoStore} from '@/features/todo-list/model'

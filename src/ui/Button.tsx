@@ -1,8 +1,16 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Button = styled.button`
-    padding: 8px;
-    border: none;
+type ButtonProps = {
+    danger?: boolean
+}
+
+export const Button = styled.button<ButtonProps>`
     background-color: #9ca;
     color: #111;
+    ${({danger}) => danger && css`
+        background-color: #A11;
+        color: #fff;
+    `}
+    padding: 10px;
+    border: none;
 `

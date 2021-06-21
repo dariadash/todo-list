@@ -1,8 +1,8 @@
 
 export enum TodoActions {
-    insert,
-    remove,
-    toggle,
-    loadAll,
-    saveAll
+    insert = 'INSERT',
+    remove = 'REMOVE',
+    toggle = 'TOGGLE',
+    loadAll = 'LOAD_ALL',
+    saveAll = 'SAVE_ALL'
   }
